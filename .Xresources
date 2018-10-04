@@ -1,0 +1,42 @@
+! do not scroll with output
+URxvt.scrollTtyOutput: false
+
+URxvt.font: xft:Inconsolata:size=10
+
+! scroll in relation to buffer (with mouse scroll or Shift+Page Up)
+URxvt.scrollWithBuffer: true
+
+! scroll back to the bottom on keypress
+URxvt.scrollTtyKeypress: true
+
+URxvt.scrollBar: false
+
+*background: rgb:00/00/00
+*foreground: rgb:a8/a8/a8
+*color0:     rgb:00/00/00
+*color1:     rgb:a8/00/00
+*color2:     rgb:00/a8/00
+*color3:     rgb:a8/54/00
+*color4:     rgb:00/00/a8
+*color5:     rgb:a8/00/a8
+*color6:     rgb:00/a8/a8
+*color7:     rgb:a8/a8/a8
+*color8:     rgb:54/50/54
+*color9:     rgb:f8/54/50
+*color10:    rgb:50/fc/50
+*color11:    rgb:f8/fc/50
+*color12:    rgb:50/54/f8
+*color13:    rgb:f8/54/f8
+*color14:    rgb:50/fc/f8
+*color15:    rgb:f8/fc/f8
+
+! "Font to use" Set from: Default
+rofi.font:                           Inconsolata 12
+! "Color scheme for normal row" Set from: Default
+rofi.color-normal:                   #000000,#006060,#050505,#000000,#00C0C0
+! "Color scheme for urgent row" Set from: Default
+rofi.color-urgent:                   #fdf6e3,#dc322f,#eee8d5,#dc322f,#fdf6e3
+! "Color scheme for active row" Set from: Default
+rofi.color-active:                   #fdf6e3,#268bd2,#eee8d5,#268bd2,#fdf6e0
+! "Color scheme window" Set from: Default
+rofi.color-window:                   #000000,#006085

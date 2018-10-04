@@ -1,0 +1,5 @@
+.emacs.d.mine/backups
+.emacs.d.mine/elpa
+.emacs.d.mine/auto-save-list
+.mutt/temp
+.vim

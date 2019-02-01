@@ -11,8 +11,8 @@
 
 for_window[class="^.*"] border pixel 2
 
-gaps inner 2
-gaps outer 2
+gaps inner 3
+gaps outer 3
 
 set $mod Mod4
 
@@ -179,10 +179,10 @@ bindsym XF86AudioPrev exec mpc prev
 
 bindsym $mod+z mode "work"
 
-bindsym $mod+Alt+l exec xautolock -locknow
+bindsym $mod+Alt+l exec xautolock -locknow -locker i3lock-fancy
 
 # Execute the programs...
-exec --no-startup-id feh --bg-fill "/home/lemelino/Pictures/game-of-life.png"
+exec --no-startup-id feh --bg-fill "/home/lemelino/Pictures/space.jpg"
 exec --no-startup-id compton --config ~/.config/compton.conf
 exec --no-startup-id nm-applet
 exec --no-startup-id dunst
@@ -192,5 +192,5 @@ exec --no-startup-id polybar example
 exec --no-startup-id copyq && copyq hide
 exec --no-startup-id xbanish
 exec --no-startup-id numlockx
-exec --no-startup-ip xautolock -time 5 -locker i3lock-fancy -detectsleep -corners "00-0"
+exec --no-startup-ip xautolock -time 30 -locker i3lock-fancy -detectsleep -corners "00-0"
 #exec --no-startup-id conky

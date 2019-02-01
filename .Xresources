@@ -1,7 +1,8 @@
 ! do not scroll with output
 URxvt.scrollTtyOutput: false
 
-URxvt.font: xft:Inconsolata:size=10
+urxvt.font: xft:Terminus:pixelsize=11,xft:Inconsolata\ for\ Powerline:pixelsize=11
+
 
 ! scroll in relation to buffer (with mouse scroll or Shift+Page Up)
 URxvt.scrollWithBuffer: true
@@ -11,24 +12,62 @@ URxvt.scrollTtyKeypress: true
 
 URxvt.scrollBar: false
 
-*background: rgb:00/00/00
-*foreground: rgb:a8/a8/a8
-*color0:     rgb:00/00/00
-*color1:     rgb:a8/00/00
-*color2:     rgb:00/a8/00
-*color3:     rgb:a8/54/00
-*color4:     rgb:00/00/a8
-*color5:     rgb:a8/00/a8
-*color6:     rgb:00/a8/a8
-*color7:     rgb:a8/a8/a8
-*color8:     rgb:54/50/54
-*color9:     rgb:f8/54/50
-*color10:    rgb:50/fc/50
-*color11:    rgb:f8/fc/50
-*color12:    rgb:50/54/f8
-*color13:    rgb:f8/54/f8
-*color14:    rgb:50/fc/f8
-*color15:    rgb:f8/fc/f8
+!*background: rgb:00/00/00
+!*foreground: rgb:a8/a8/a8
+!*color0:     rgb:00/00/00
+!*color1:     rgb:a8/00/00
+!*color2:     rgb:00/a8/00
+!*color3:     rgb:a8/54/00
+!*color4:     rgb:00/00/a8
+!*color5:     rgb:a8/00/a8
+!*color6:     rgb:00/a8/a8
+!*color7:     rgb:a8/a8/a8
+!*color8:     rgb:54/50/54
+!*color9:     rgb:f8/54/50
+!*color10:    rgb:50/fc/50
+!*color11:    rgb:f8/fc/50
+!*color12:    rgb:50/54/f8
+!*color13:    rgb:f8/54/f8
+!*color14:    rgb:50/fc/f8
+!*color15:    rgb:f8/fc/f8
+
+! special
+*.foreground:   #2fc02f
+*.background:   #000000
+*.cursorColor:  #2fc02f
+
+! black
+*.color0:       #000000
+*.color8:       #00d000
+
+! red
+*.color1:       #30f530
+*.color9:       #cefdce
+
+! green
+*.color2:       #00cc67
+*.color10:      #5b71ee
+
+! yellow
+*.color3:       #00b9cc
+*.color11:      #63ca83
+
+! blue
+*.color4:       #6257ff
+*.color12:      #cd2a2a
+
+! magenta
+*.color5:       #0ea96e
+*.color13:      #efefef
+
+! cyan
+*.color6:       #085b0e
+*.color14:      #03f803
+
+! white
+*.color7:       #777777
+*.color15:      #00cc00
+
 
 ! "Font to use" Set from: Default
 rofi.font:                           Inconsolata 12

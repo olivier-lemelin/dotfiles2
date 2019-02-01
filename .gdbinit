@@ -1,1 +1,1 @@
-source /usr/share/peda/peda.py
+source /home/lemelino/Security Tools/peda/peda.py

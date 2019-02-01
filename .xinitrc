@@ -1,3 +1,4 @@
 numlockx &
 xmodmap ~/.xmodmap &
-exec stumpwm
+#exec stumpwm
+exec i3
